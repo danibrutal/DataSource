@@ -1,0 +1,26 @@
+{
+    "name": "danibrutal/data-source",
+    "description": "Provides an elegant yet efficient way to get data from different sources",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Daniel Martínez",
+            "email": "danimartcas@hotmail.com"
+        }
+    ],
+
+    "require": {
+        "php" : ">=5.5.0"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "DataSource\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "DataSource\\Test\\": "tests"
+        }
+    }
+}
