@@ -1,11 +1,15 @@
 # PHP DataSource with generators!
 Never wanted to do something like this:
 ``` php
+
 use DataSource\Origins\CustomDataSource;
+
 $ds = new CustomDataSource('some/data/origin');
+
 while($item = $ds->nextItem() {
     //do awesome stuff with $item
 }
+
 ```
 
 In a efficient way ?
