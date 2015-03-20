@@ -8,7 +8,7 @@
 
 require 'vendor/autoload.php';
 
-use DataSource\Origins\CSVDataSource;
+use DataSource\Examples\CSVDataSource;
 
 $a = new CSVDataSource(__DIR__ . '/example.csv');
 

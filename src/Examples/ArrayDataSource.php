@@ -6,7 +6,7 @@
  * Time: 7:39
  */
 
-namespace DataSource\Origins;
+namespace DataSource\Examples;
 
 use DataSource\DataSource;
 
@@ -14,7 +14,7 @@ use DataSource\DataSource;
  * Class ArrayDataSource
  * For testing purposes
  *
- * @package DataSource\Origins
+ * @package DataSource\Examples
  */
 class ArrayDataSource extends DataSource
 {

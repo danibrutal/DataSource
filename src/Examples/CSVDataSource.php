@@ -6,14 +6,14 @@
  * Time: 22:07
  */
 
-namespace DataSource\Origins;
+namespace DataSource\Examples;
 
 
 use DataSource\DataSource;
 
 /**
  * Class CSVDataSource
- * @package DataSource\Origins
+ * @package DataSource\Examples
  */
 class CSVDataSource extends DataSource
 {
